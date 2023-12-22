@@ -2,8 +2,8 @@ package com.soni.modal;
 
 
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.zosh.user.domain.OrderStatus;
+import com.fasterxml.jackson.annotation.JsonIgnore; 
+import com.soni.user.domain.OrderStatus;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

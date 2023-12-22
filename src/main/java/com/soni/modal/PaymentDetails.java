@@ -1,7 +1,7 @@
 package com.soni.modal;
 
-import com.zosh.user.domain.PaymentMethod;
-import com.zosh.user.domain.PaymentStatus;
+import com.soni.user.domain.PaymentMethod;
+import com.soni.user.domain.PaymentStatus;
 
 public class PaymentDetails {
 	

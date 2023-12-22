@@ -1,6 +1,6 @@
 package com.soni.controller;
 
-import java.util.List;
+import java.util.List; 
 
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Product;
-import com.zosh.service.ProductService;
-import com.zosh.user.domain.ProductSubCategory;
+import com.soni.exception.ProductException;
+import com.soni.modal.Product;
+import com.soni.service.ProductService;
+import com.soni.user.domain.ProductSubCategory;
 
 @RestController
 @RequestMapping("/api")
