@@ -1,7 +1,7 @@
 package com.soni.service;
 
 
-import java.time.LocalDateTime;
+import java.time.LocalDateTime; 
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -12,13 +12,13 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Category;
-import com.zosh.modal.Product;
-import com.zosh.repository.CategoryRepository;
-import com.zosh.repository.ProductRepository;
-import com.zosh.request.CreateProductRequest;
-import com.zosh.user.domain.ProductSubCategory;
+import com.soni.exception.ProductException;
+import com.soni.modal.Category;
+import com.soni.modal.Product;
+import com.soni.repository.CategoryRepository;
+import com.soni.repository.ProductRepository;
+import com.soni.request.CreateProductRequest;
+import com.soni.user.domain.ProductSubCategory;
 
 @Service
 public class ProductServiceImplementation implements ProductService {

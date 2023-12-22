@@ -1,6 +1,6 @@
 package com.soni.repository;
 
-import java.util.List;
+import java.util.List; 
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.zosh.modal.Product;
-import com.zosh.user.domain.ProductSubCategory;
+import com.soni.modal.Product;
+import com.soni.user.domain.ProductSubCategory;
 
 
 public interface ProductRepository extends JpaRepository<Product, Long> {

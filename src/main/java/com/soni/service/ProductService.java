@@ -1,13 +1,13 @@
 package com.soni.service;
 
-import java.util.List;
+import java.util.List; 
 
 import org.springframework.data.domain.Page;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Product;
-import com.zosh.request.CreateProductRequest;
-import com.zosh.user.domain.ProductSubCategory;
+import com.soni.exception.ProductException;
+import com.soni.modal.Product;
+import com.soni.request.CreateProductRequest;
+import com.soni.user.domain.ProductSubCategory;
 
 public interface ProductService {
 	

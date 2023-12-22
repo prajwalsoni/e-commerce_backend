@@ -1,10 +1,10 @@
 package com.soni.service;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Cart;
-import com.zosh.modal.CartItem;
-import com.zosh.modal.User;
-import com.zosh.request.AddItemRequest;
+import com.soni.exception.ProductException;
+import com.soni.modal.Cart;
+import com.soni.modal.CartItem;
+import com.soni.modal.User;
+import com.soni.request.AddItemRequest;
 
 public interface CartService {
 	

@@ -1,6 +1,6 @@
 package com.soni.controller;
 
-import java.util.List;
+import java.util.List; 
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.ProductException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Review;
-import com.zosh.modal.User;
-import com.zosh.request.ReviewRequest;
-import com.zosh.service.ReviewService;
-import com.zosh.service.UserService;
+import com.soni.exception.ProductException;
+import com.soni.exception.UserException;
+import com.soni.modal.Review;
+import com.soni.modal.User;
+import com.soni.request.ReviewRequest;
+import com.soni.service.ReviewService;
+import com.soni.service.UserService;
 
 @RestController
 @RequestMapping("/api/reviews")

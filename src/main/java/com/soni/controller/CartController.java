@@ -1,6 +1,6 @@
 package com.soni.controller;
 
-import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatus; 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -9,15 +9,15 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.ProductException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Cart;
-import com.zosh.modal.CartItem;
-import com.zosh.modal.User;
-import com.zosh.request.AddItemRequest;
-import com.zosh.response.ApiResponse;
-import com.zosh.service.CartService;
-import com.zosh.service.UserService;
+import com.soni.exception.ProductException;
+import com.soni.exception.UserException;
+import com.soni.modal.Cart;
+import com.soni.modal.CartItem;
+import com.soni.modal.User;
+import com.soni.request.AddItemRequest;
+import com.soni.response.ApiResponse;
+import com.soni.service.CartService;
+import com.soni.service.UserService;
 
 @RestController
 @RequestMapping("/api/cart")

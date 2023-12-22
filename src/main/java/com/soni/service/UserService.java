@@ -1,7 +1,7 @@
 package com.soni.service;
 
-import com.zosh.exception.UserException;
-import com.zosh.modal.User;
+import com.soni.exception.UserException;
+import com.soni.modal.User;
 
 public interface UserService {
 	

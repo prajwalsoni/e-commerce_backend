@@ -1,12 +1,11 @@
 package com.soni.request;
 
-import java.util.HashSet;
+import java.util.HashSet; 
 import java.util.Set;
 
-import com.zosh.modal.Category;
-import com.zosh.modal.Size;
-import com.zosh.user.domain.ProductSize;
-
+import com.soni.modal.Category;
+import com.soni.modal.Size;
+import com.soni.user.domain.ProductSize;
 
 public class CreateProductRequest {
 	

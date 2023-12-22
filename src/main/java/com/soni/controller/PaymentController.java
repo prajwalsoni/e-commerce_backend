@@ -1,6 +1,6 @@
 package com.soni.controller;
 
-import org.json.JSONObject;
+import org.json.JSONObject; 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,17 +13,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.view.RedirectView;
 
-import com.zosh.exception.OrderException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Order;
-import com.zosh.modal.User;
-import com.zosh.repository.OrderRepository;
-import com.zosh.response.ApiResponse;
-import com.zosh.response.PaymentLinkResponse;
-import com.zosh.service.OrderService;
-import com.zosh.service.UserService;
-import com.zosh.user.domain.OrderStatus;
-import com.zosh.user.domain.PaymentStatus;
+import com.soni.exception.OrderException;
+import com.soni.exception.UserException;
+import com.soni.modal.Order;
+import com.soni.modal.User;
+import com.soni.repository.OrderRepository;
+import com.soni.response.ApiResponse;
+import com.soni.response.PaymentLinkResponse;
+import com.soni.service.OrderService;
+import com.soni.service.UserService;
+import com.soni.user.domain.OrderStatus;
+import com.soni.user.domain.PaymentStatus;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.razorpay.Payment;

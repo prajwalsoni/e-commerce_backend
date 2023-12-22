@@ -1,17 +1,17 @@
 package com.soni.service;
 
-import java.time.LocalDateTime;
+import java.time.LocalDateTime; 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Product;
-import com.zosh.modal.Review;
-import com.zosh.modal.User;
-import com.zosh.repository.ProductRepository;
-import com.zosh.repository.ReviewRepository;
-import com.zosh.request.ReviewRequest;
+import com.soni.exception.ProductException;
+import com.soni.modal.Product;
+import com.soni.modal.Review;
+import com.soni.modal.User;
+import com.soni.repository.ProductRepository;
+import com.soni.repository.ReviewRepository;
+import com.soni.request.ReviewRequest;
 
 @Service
 public class ReviewServiceImplementation implements ReviewService {

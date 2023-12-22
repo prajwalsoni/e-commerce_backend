@@ -1,6 +1,6 @@
 package com.soni.controller;
 
-import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatus; 
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -13,15 +13,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.config.JwtTokenProvider;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Cart;
-import com.zosh.modal.User;
-import com.zosh.repository.UserRepository;
-import com.zosh.request.LoginRequest;
-import com.zosh.response.AuthResponse;
-import com.zosh.service.CartService;
-import com.zosh.service.CustomUserDetails;
+import com.soni.config.JwtTokenProvider;
+import com.soni.exception.UserException;
+import com.soni.modal.Cart;
+import com.soni.modal.User;
+import com.soni.repository.UserRepository;
+import com.soni.request.LoginRequest;
+import com.soni.response.AuthResponse;
+import com.soni.service.CartService;
+import com.soni.service.CustomUserDetails;
 
 import jakarta.validation.Valid;
 

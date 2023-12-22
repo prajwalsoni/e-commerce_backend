@@ -1,10 +1,10 @@
 package com.soni.modal;
-import java.time.LocalDateTime;
+import java.time.LocalDateTime; 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.zosh.user.domain.UserRole;
+import com.soni.user.domain.UserRole;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.CollectionTable;

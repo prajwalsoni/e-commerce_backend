@@ -1,6 +1,6 @@
 package com.soni.service;
 
-import com.zosh.modal.OrderItem;
+import com.soni.modal.OrderItem;
 
 public interface OrderItemService {
 	

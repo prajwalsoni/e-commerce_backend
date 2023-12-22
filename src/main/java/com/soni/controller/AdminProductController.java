@@ -1,6 +1,6 @@
 package com.soni.controller;
 
-import java.util.List;
+import java.util.List; 
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Product;
-import com.zosh.request.CreateProductRequest;
-import com.zosh.response.ApiResponse;
-import com.zosh.service.ProductService;
+import com.soni.exception.ProductException;
+import com.soni.modal.Product;
+import com.soni.request.CreateProductRequest;
+import com.soni.response.ApiResponse;
+import com.soni.service.ProductService;
 
 @RestController
 @RequestMapping("/api/admin/products")

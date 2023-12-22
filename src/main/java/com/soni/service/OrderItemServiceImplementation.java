@@ -1,9 +1,9 @@
 package com.soni.service;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Service; 
 
-import com.zosh.modal.OrderItem;
-import com.zosh.repository.OrderItemRepository;
+import com.soni.modal.OrderItem;
+import com.soni.repository.OrderItemRepository;
 
 @Service
 public class OrderItemServiceImplementation implements OrderItemService {

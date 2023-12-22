@@ -1,11 +1,11 @@
 package com.soni.service;
 
-import java.util.List;
+import java.util.List; 
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Review;
-import com.zosh.modal.User;
-import com.zosh.request.ReviewRequest;
+import com.soni.exception.ProductException;
+import com.soni.modal.Review;
+import com.soni.modal.User;
+import com.soni.request.ReviewRequest;
 
 public interface ReviewService {
 

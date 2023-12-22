@@ -1,16 +1,16 @@
 package com.soni.service;
 
-import java.time.LocalDateTime;
+import java.time.LocalDateTime; 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.zosh.exception.ProductException;
-import com.zosh.modal.Product;
-import com.zosh.modal.Rating;
-import com.zosh.modal.User;
-import com.zosh.repository.RatingRepository;
-import com.zosh.request.RatingRequest;
+import com.soni.exception.ProductException;
+import com.soni.modal.Product;
+import com.soni.modal.Rating;
+import com.soni.modal.User;
+import com.soni.repository.RatingRepository;
+import com.soni.request.RatingRequest;
 
 @Service
 public class RatingServiceImplementation implements RatingServices{

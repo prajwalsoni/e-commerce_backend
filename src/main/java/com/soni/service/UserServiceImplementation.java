@@ -1,13 +1,13 @@
 package com.soni.service;
 
-import java.util.Optional;
+import java.util.Optional; 
 
 import org.springframework.stereotype.Service;
 
-import com.zosh.config.JwtTokenProvider;
-import com.zosh.exception.UserException;
-import com.zosh.modal.User;
-import com.zosh.repository.UserRepository;
+import com.soni.config.JwtTokenProvider;
+import com.soni.exception.UserException;
+import com.soni.modal.User;
+import com.soni.repository.UserRepository;
 
 @Service
 public class UserServiceImplementation implements UserService {

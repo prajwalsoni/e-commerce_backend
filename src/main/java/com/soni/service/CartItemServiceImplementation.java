@@ -1,17 +1,17 @@
 package com.soni.service;
 
-import java.util.Optional;
+import java.util.Optional; 
 
 import org.springframework.stereotype.Service;
 
-import com.zosh.exception.CartItemException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Cart;
-import com.zosh.modal.CartItem;
-import com.zosh.modal.Product;
-import com.zosh.modal.User;
-import com.zosh.repository.CartItemRepository;
-import com.zosh.repository.CartRepository;
+import com.soni.exception.CartItemException;
+import com.soni.exception.UserException;
+import com.soni.modal.Cart;
+import com.soni.modal.CartItem;
+import com.soni.modal.Product;
+import com.soni.modal.User;
+import com.soni.repository.CartItemRepository;
+import com.soni.repository.CartRepository;
 
 @Service
 public class CartItemServiceImplementation implements CartItemService {

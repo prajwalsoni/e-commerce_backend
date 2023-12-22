@@ -1,6 +1,6 @@
 package com.soni.controller;
 
-import java.util.List;
+import java.util.List; 
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,13 +13,13 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.OrderException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.Address;
-import com.zosh.modal.Order;
-import com.zosh.modal.User;
-import com.zosh.service.OrderService;
-import com.zosh.service.UserService;
+import com.soni.exception.OrderException;
+import com.soni.exception.UserException;
+import com.soni.modal.Address;
+import com.soni.modal.Order;
+import com.soni.modal.User;
+import com.soni.service.OrderService;
+import com.soni.service.UserService;
 
 @RestController
 @RequestMapping("/api/orders")

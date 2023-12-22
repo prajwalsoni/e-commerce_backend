@@ -1,4 +1,4 @@
-package com.zosh.response;
+package com.soni.response;
 
 public class ApiResponse {
 

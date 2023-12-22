@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zosh.exception.OrderException;
-import com.zosh.modal.Order;
-import com.zosh.response.ApiResponse;
-import com.zosh.service.OrderService;
+import com.soni.exception.OrderException;
+import com.soni.modal.Order;
+import com.soni.response.ApiResponse;
+import com.soni.service.OrderService;
 
 @RestController
 @RequestMapping("/api/admin/orders")

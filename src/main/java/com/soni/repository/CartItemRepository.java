@@ -1,12 +1,12 @@
 package com.soni.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaRepository; 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.zosh.modal.Cart;
-import com.zosh.modal.CartItem;
-import com.zosh.modal.Product;
+import com.soni.modal.Cart;
+import com.soni.modal.CartItem;
+import com.soni.modal.Product;
 
 public interface CartItemRepository extends JpaRepository<CartItem, Long>{
 

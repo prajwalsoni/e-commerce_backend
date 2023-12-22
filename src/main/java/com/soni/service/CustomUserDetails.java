@@ -1,6 +1,6 @@
 package com.soni.service;
 
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.List;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -10,8 +10,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.zosh.modal.User;
-import com.zosh.repository.UserRepository;
+import com.soni.modal.User;
+import com.soni.repository.UserRepository;
 
 @Service
 public class CustomUserDetails implements UserDetailsService {
