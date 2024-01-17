@@ -122,7 +122,7 @@ public class PaymentController {
 		
 		
 		Payment payment = razorpay.payments.fetch(paymentId);
-		System.out.println("payment details --- "+payment+payment.get("status"));
+		System.out.println("payment details  --- "+payment+payment.get("status"));
 		
 		if(payment.get("status").equals("captured")) {
 			System.out.println("payment details --- "+payment+payment.get("status"));
